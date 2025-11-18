@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Store – Products</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #f9f5f0;
+      color: #333;
+    }
+    header {
+      background: #2c2c2c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+    .card {
+      background: #fff;
+      width: 250px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .btn {
+      margin-top: 15px;
+      padding: 10px 25px;
+      background: #3a2e2e;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Our Collection</header>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://i.imgur.com/zYIlgBl.jpeg" alt="Book 1" />
+      <h3>The Silent Reader</h3>
+      <p>₹499</p>
+      <a href="payment.html" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/c7wKX4B.jpeg" alt="Book 2" />
+      <h3>Midnight Tales</h3>
+      <p>₹399</p>
+      <a href="payment.html" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/1EuQWUZ.jpeg" alt="Book 3" />
+      <h3>Dreaming in Pages</h3>
+      <p>₹599</p>
+      <a href="payment.html" class="btn">Buy Now</a>
+    </div>
+  </div>
+</body>
+</html>
